@@ -22,13 +22,12 @@
     <!-- Header section -->
     <header class="header">
       <div class="header-container container">
+         <nav class="header-nav">
         <a class="header-logo-link" href="./index.html"
-          ><span class="logo">WEB</span><span>STUDIO</span></a
-        >
-        <nav class="header-nav">
+          ><span class="logo">WEB</span><span>STUDIO</span></a>
           <ul class="site-nav list">
             <li class="site-nav-item">
-              <a class="header-link link-studio-mobile" href="./index.html"
+              <a class="header-link link-studio" href="./index.html"
                 >Studio</a
               >
             </li>
@@ -49,27 +48,28 @@
         </button>
         <address class="header-adress">
           <ul class="adress-nav list">
+ <li class="adress-nav-item">
+              <a class="adress-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
             <li class="adress-nav-item">
               <a class="adress-link" href="tel:+11(000)111-11-11"
                 >+11(000)111-11-11</a
               >
             </li>
-            <li class="adress-nav-item">
-              <a class="adress-link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
           </ul>
         </address>
+      </div>
 
 
 
         <!-- Mobile menu -->
 
 
-<div class="mobile-menu-open js-menu-container">
+<div class="mobile-menu-open js-menu-container" id="mobile-menu">
       <div class="mobile-menu-container"> 
-        <button class="mobile-menu-close js-close-menu">
+        <button type="button" class="mobile-menu-close js-close-menu">
           <svg class="mobile-menu-close-icon" width="8" height="8">
             <use href="./images/icons.svg#modal-icon"></use>
           </svg>
@@ -161,17 +161,17 @@
 
     <!-- First section of content Hero  -->
 
-    <!-- <main>
+     <main>
       <section class="hero section">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button data-modal-open class="button" type="button">Order Service</button>
         </div>
-      </section> -->
+      </section> 
 
     <!-- Main section -->
 
-    <!-- <section class="feature-section section">
+    <section class="feature-section section">
         <div class="container">
           <h2 hidden>Our advantages</h2>
           <ul class="feature-list list">
@@ -181,7 +181,7 @@
                   <use href="./images/icons.svg#icon-icon1"></use>
                 </svg>
               </div>
-              <h3 class="section-sub-title">Strategy</h3>
+              <h3 class="section-sub-title features-title">Strategy</h3>
               <p class="section-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
@@ -193,7 +193,7 @@
                   <use href="./images/icons.svg#icon-icon2"></use>
                 </svg>
               </div>
-              <h3 class="section-sub-title">Punctuality</h3>
+              <h3 class="section-sub-title features-title">Punctuality</h3>
               <p class="section-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
@@ -205,7 +205,7 @@
                   <use href="./images/icons.svg#icon-icon3"></use>
                 </svg>
               </div>
-              <h3 class="section-sub-title">Diligence</h3>
+              <h3 class="section-sub-title features-title">Diligence</h3>
               <p class="section-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
@@ -217,7 +217,7 @@
                   <use href="./images/icons.svg#icon-icon4"></use>
                 </svg>
               </div>
-              <h3 class="section-sub-title">Technologies</h3>
+              <h3 class="section-sub-title features-title">Technologies</h3>
               <p class="section-text">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
@@ -225,11 +225,11 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section> 
 
     <!-- About work section -->
 
-    <!-- <section class="about-section section">
+     <section class="about-section section">
         <div class="container">
           <h2 class="section-title">What are we doing</h2>
           <ul class="gallery-list list">
@@ -244,18 +244,18 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section> 
 
     <!-- About Team Group -->
 
-    <!-- <section class="team-section section">
+    <section class="team-section section">
         <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="team-card list">
             <li class="team-card-item">
               <img src="./images/team/mark.jpg" alt="Mark" width="264" />
               <div class="team-wrapper">
-                <h3 class="section-sub-title">Mark Guerrero</h3>
+                <h3 class="section-sub-title-team">Mark Guerrero</h3>
                 <p class="team-text">Product Designer</p>
                 <ul class="socials-list list">
                   <li class="social-item">
@@ -316,7 +316,7 @@
             <li class="team-card-item">
               <img src="./images/team/tom.jpg" alt="Tom" width="264" />
               <div class="team-wrapper">
-                <h3 class="section-sub-title">Tom Ford</h3>
+                <h3 class="section-sub-title-team">Tom Ford</h3>
                 <p class="team-text">Frontend Developer</p>
                 <ul class="socials-list list">
                   <li class="social-item">
@@ -379,7 +379,7 @@
             <li class="team-card-item">
               <img src="./images/team/camila.jpg" alt="Camila" width="264" />
               <div class="team-wrapper">
-                <h3 class="section-sub-title">Camila Garcia</h3>
+                <h3 class="section-sub-title-team">Camila Garcia</h3>
                 <p class="team-text">Marketing</p>
                 <ul class="socials-list list">
                   <li class="social-item">
@@ -439,7 +439,7 @@
             <li class="team-card-item">
               <img src="./images/team/daniel.jpg" alt="Daniel" width="264" />
               <div class="team-wrapper">
-                <h3 class="section-sub-title">Daniel Wilson</h3>
+                <h3 class="section-sub-title-team">Daniel Wilson</h3>
                 <p class="team-text">UI Designer</p>
                 <ul class="socials-list list">
                   <li class="social-item">
@@ -498,11 +498,11 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
     <!-- Customers -->
 
-    <!-- <section class="section">
+    <section class="section">
   <div class="container">
 <h2 class="section-title">Customers</h2>
 <ul class="customers-list list">
@@ -550,14 +550,14 @@
   </li>
   </div>
 </section>
-</main> -->
+</main> 
 
     <!-- Footer section -->
 
-    <!-- <footer class="footer-section">
+    <footer class="footer-section">
       <div class="container footer-container">
         <div class="footer-about-logo"> 
-        <a class="footer-logo-link" href="./index.html"
+        <a class="footer-logo-link footer-logo" href="./index.html"
           ><span class="logo">WEB</span><span>STUDIO</span>
         </a>
         <p class="footer-text">
@@ -566,7 +566,7 @@
         </p>
       </div>
       <div class="socials-footer">
-        <p>Social media</p>
+        <p class="footer-text-social">Social media</p>
         <ul class="socials-footer-list list"> 
           <li class="socials-footer-items">
             <a
@@ -621,9 +621,9 @@
                     </a>
           </li>
         </ul>
-      </div> -->
+      </div>
 
-    <!-- <div class="footer-subscribe">
+     <div class="footer-subscribe">
      <form>  
         <p class="subscribe-title">Subscribe</p> 
         <div class="subscribe-form">
@@ -679,13 +679,12 @@
     <span class="order-form-desc">I accept the terms and conditions of the 
     <a class="order-form-link" href="">Privacy Policy</a>
     </span>
-</label> -->
-
-    <!-- <button class="order-form-button button" type="submit">Send</button>
+</label>
+    <button class="order-form-button button" type="submit">Send</button>
             </form>
           </div>
         </div> 
-    <script src="./modal.js"></script> -->
+    <script src="./modal.js"></script>
     <script scr="./mobile-menu.js"></script>
   </body>
 </html>
