@@ -67,8 +67,9 @@
         <!-- Mobile menu -->
 
 
-<div class="mobile-menu-open js-menu-container" id="mobile-menu">
+      <div class="mobile-menu-open js-menu-container" id="mobile-menu">
       <div class="mobile-menu-container"> 
+        <div class="mobile-content">   
         <button type="button" class="mobile-menu-close js-close-menu">
           <svg class="mobile-menu-close-icon" width="8" height="8">
             <use href="./images/icons.svg#modal-icon"></use>
@@ -85,7 +86,7 @@
             <a class="header-mobile-link" href="">Contacts</a>
           </li>
         </ul>
-        <address class="header-adress-mobile">
+        <div class="header-adress-mobile">
           <ul class="adress-nav-mobile list">
             <li class="adress-nav-item-mobile link-mobile">
               <a
@@ -100,7 +101,6 @@
               >
             </li>
           </ul>
-        </address>
         <ul class="socials-list-mobile list">
           <li class="socials-item-mobile">
             <a
@@ -155,8 +155,10 @@
             </a>
           </li>
         </ul>
+        </div>
       </div>
       </div>
+    </div>
     </header>
 
     <!-- First section of content Hero  -->
@@ -555,7 +557,7 @@
     <!-- Footer section -->
 
     <footer class="footer-section">
-      <div class="container footer-container">
+      <div class="container">
         <div class="footer-about-logo"> 
         <a class="footer-logo-link footer-logo" href="./index.html"
           ><span class="logo">WEB</span><span>STUDIO</span>
@@ -623,24 +625,20 @@
         </ul>
       </div>
 
-     <div class="footer-subscribe">
-     <form>  
-        <p class="subscribe-title">Subscribe</p> 
-        <div class="subscribe-form">
-            <label>  
+
+ <form>    
+     <div class="footer-subscribe"> 
+        <p class="title">Subscribe</p> 
+            <label class="footer-form">  
             <input class="subscribe-form-field" type="email" name="user_mail" id="user_mail" placeholder="E-mail" />
-            </label>
-        <div class="subscribe-button-form">  
-        <button class="subscribe-button button" type="submit"> Subscribe   
+             <button class="subscribe-button button" type="submit"> Subscribe   
         <svg class="subscribe-icon" width="24" height="20">
             <use href="./images/icons.svg#send-icon"></use>
         </svg>
         </button>
+            </label>
       </div>
       </form>
-      </div>
-      </div>
-      </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
           <div class="modal">
