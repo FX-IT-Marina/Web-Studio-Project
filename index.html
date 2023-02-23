@@ -236,13 +236,13 @@
           <h2 class="section-title">What are we doing</h2>
           <ul class="gallery-list list">
             <li class="gallery-list-item">
-              <img src="./images/work/img1.jpg" alt="website" width="360" />
+              <img srcset="./images/work/2_desc@1x.jpg 1x, ./images/work/2_desc@2x.jpg 2x" class="img" src="./images/work/img1.jpg" alt="website" width="360" />
             </li>
             <li class="gallery-list-item">
-              <img src="./images/work/img2.jpg" alt="attachment" width="360" />
+              <img srcset="./images/work/1_desc@1x 1x, ./images/work/1_desc@2x.jpg 2x" class="img" src="./images/work/img2.jpg" alt="attachment" width="360" />
             </li>
-            <li class="gallery-list-item">
-              <img src="./images/work/img3.jpg" alt="aplication" width="360" />
+            <li  class="gallery-list-item">
+              <img srcset="./images/work/3_desc@1x.jpg 1x, ./images/work/3_desc@2x.jpg 2x" class="" src="./images/work/img3.jpg" alt="aplication" width="360" />
             </li>
           </ul>
         </div>
@@ -255,7 +255,12 @@
           <h2 class="section-title">Our Team</h2>
           <ul class="team-card list">
             <li class="team-card-item">
-              <img src="./images/team/mark.jpg" alt="Mark" width="264" />
+              <picture>   
+                <source media="(min-width: 1200px)" srcset="./images/team/img-1_desc@1x.jpg 1x, ./images/team/img-1_desc@2x.jpg 2x" type="image/jpg">
+                <source media="(min-width: 768px )" srcset="./images/team/img-1_tab@1x.jpg 1x, ./images/team/img-1_tab@2x.jpg 2x" type="image/jpg"> 
+                <source media="(max-width: 767px)" srcset="./images/team/img-1_mob@1x.jpg 1x, ./images/team/img-1_mob@2x.jpg 2x " type="image/jpg">
+              <img  src="./images/team/mark.jpg" alt="Mark" width="264" />
+              </picture>
               <div class="team-wrapper">
                 <h3 class="section-sub-title-team">Mark Guerrero</h3>
                 <p class="team-text">Product Designer</p>
@@ -316,6 +321,10 @@
               </div>
             </li>
             <li class="team-card-item">
+               <picture>   
+                <source media="(min-width: 1200px)" srcset="./images/team/img-2_desc@1x.jpg 1x, ./images/team/img-2_desc@2x.jpg 2x" type="image/jpg">
+                <source media="(min-width: 768px )" srcset="./images/team/img-2_tab@1x.jpg 1x, ./images/team/img-2_tab@2x.jpg 2x" type="image/jpg"> 
+                <source media="(max-width: 767px)" srcset="./images/team/img-2_mob@1x.jpg 1x, ./images/team/img-2_mob@2x.jpg 2x " type="image/jpg">
               <img src="./images/team/tom.jpg" alt="Tom" width="264" />
               <div class="team-wrapper">
                 <h3 class="section-sub-title-team">Tom Ford</h3>
@@ -379,6 +388,10 @@
               </div>
             </li>
             <li class="team-card-item">
+               <picture>   
+                <source media="(min-width: 1200px)" srcset="./images/team/img-3_desc@1x.jpg 1x, ./images/team/img-3_desc@2x.jpg 2x" type="image/jpg">
+                <source media="(min-width: 768px )" srcset="./images/team/img-3_tab@1x.jpg 1x, ./images/team/img-3_tab@2x.jpg 2x" type="image/jpg"> 
+                <source media="(max-width: 767px)" srcset="./images/team/img-3_mob@1x.jpg 1x, ./images/team/img-3_mob@2x.jpg 2x " type="image/jpg">
               <img src="./images/team/camila.jpg" alt="Camila" width="264" />
               <div class="team-wrapper">
                 <h3 class="section-sub-title-team">Camila Garcia</h3>
@@ -439,6 +452,10 @@
               </div>
             </li>
             <li class="team-card-item">
+               <picture>   
+                <source media="(min-width: 1200px)" srcset="./images/team/img-4_desc@1x.jpg 1x, ./images/team/img-4_desc@2x.jpg 2x" type="image/jpg">
+                <source media="(min-width: 768px )" srcset="./images/team/img-4_tab@1x.jpg 1x, ./images/team/img-4_tab@2x.jpg 2x" type="image/jpg"> 
+                <source media="(max-width: 767px)" srcset="./images/team/img-4_mob@1x.jpg 1x, ./images/team/img-4_mob@2x.jpg 2x " type="image/jpg">
               <img src="./images/team/daniel.jpg" alt="Daniel" width="264" />
               <div class="team-wrapper">
                 <h3 class="section-sub-title-team">Daniel Wilson</h3>
