@@ -789,7 +789,7 @@ ul {
 @media screen and (max-width: 767.98px){
   .footer-about-logo{
     margin-bottom: 72px;
-    
+    text-align: center;
   }
 }
 
@@ -833,16 +833,30 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 0;
-  
+}
+
+@media screen and (max-width: 767.98px)  {
+  .footer-text{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 .socials-footer .socials-footer-list{
   gap: 16px;
 }
-@media screen and (min-width: 768px){
+
+@media screen and (max-width: 767.98px)  {
+  .socials-footer{
+    text-align: center;
+    
+  }
+}
+/* @media screen and (min-width: 768px){
 .socials-footer .socials-footer-list{
   margin-bottom: 0;
-}}
+}} */
 
 
 @media screen and (min-width: 1200px){
@@ -857,6 +871,14 @@ ul {
   color: var(--white-color);
 }
 
+@media screen and (max-width: 767.98px){
+  .footer-form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 16px;
+  }
+}
 
 @media screen and (min-width: 768px){
 .footer-form{
@@ -872,6 +894,15 @@ margin-top: 16px;
     margin-top: 16px;
   }
 }
+
+
+
+@media screen and (max-width: 767.98px)  {
+  .footer-subscribe{
+    text-align: center;
+  }
+}
+
 
 
 @media screen and (min-width: 1200px){
@@ -1060,23 +1091,19 @@ margin-top: 16px;
 
 
 .subscribe-title {
-  
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 0;
   color: var(--white-color);
 margin-top: 0;
 margin-bottom: 0;
 }
 
-
-@media screen and (min-width: 768px){
+@media screen and (max-width: 767.98px){
   .subscribe-form-field{
-    width: 264px;
+    max-width: 396px;
   }
 }
 
 .subscribe-form-field {
+  width: 264px;
   height: 40px;
   padding-left: 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -1088,23 +1115,26 @@ margin-bottom: 0;
 }
 
 
+
 .subscribe-button {
   display: flex;
-  margin-top: 16px;
   margin-right: auto;
   margin-left: auto;
   padding: 8px 24px;
   width: 165px;
   height: 40px;
-  text-align: center;
-  align-items: center;
-  font-weight: 500;
-  font-size: 16px;
   border-radius: 4px;
   gap: 16px;
   justify-content: center;
 }
 
+@media screen and (max-width: 767.98px)  {
+  .subscribe-button{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
 
 
 /* Modal icon */
