@@ -91,6 +91,18 @@ ul {
   padding: 96px 0;
 }
 
+@media screen and (min-width: 1200px) {
+  .section {
+    padding: 120px 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about-section {
+    padding-top: 0;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -104,12 +116,6 @@ ul {
 }
 
 /* Section */
-
-@media screen and (min-width: 1200px) {
-  .section {
-    padding: 120px 0;
-  }
-}
 
 /* Header section */
 /* Styles logo */
