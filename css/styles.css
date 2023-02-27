@@ -81,7 +81,6 @@ ul {
 /* Container */
 
 .container {
-  max-width: 428px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -409,7 +408,7 @@ ul {
 /* Hero section */
 
 .hero {
-  max-width: 428px;
+  /* max-width: 428px; */
   text-align: center;
   background-color: var(--backgroind-color);
   background-image: linear-gradient(
